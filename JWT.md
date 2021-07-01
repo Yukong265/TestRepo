@@ -8,8 +8,6 @@
 <h3>3. JWT는 세파트로 나누어지며, 각 파트는 점으로 구분하여 xxx.yyy.zzz 이런식으로 표현 한다.
     순서대로 헤더(HEADER), 페이로드(PAYLOAD), 서명(SINATURE)로 구성한다.
 </h3>
-
-
 1. Header는 토큰의 타입과 해시 암호화 알고리즘으로 구성
 2. Payload는 토큰에 담을 클레임 정보를 포함
 3. Signature는 secret key를 포함하여 암호화.

@@ -14,7 +14,7 @@
 
 
 
-<h1>Response Code</h1>
+<h1>HTTP Code</h1>
 
 <h3>200 : 작업이 성공했다</h3>
 
