@@ -3,9 +3,6 @@
 - MySQL의 구조![](C:\Users\user\Desktop\SQL 구조.PNG)
   1. Database(Schema) 안에 Table이 여러개 있을 수 있는 구조이다.
   2. 그런 데이터베이스들을 여러 개 가지고 있는 것을 DB Server라고 한다.
-  3. 
-
-
 
 - MySQL의 구문
 
@@ -72,10 +69,42 @@
 
   3. Insert
 
-  4. Select
+     1. ```
+        INSERT INTO 테이블이름(필드이름1, 필드이름2, 필드이름3, ...) VALUES (데이터값1, 데이터값2, 데이터값3, ...)
+        ```
 
-  5. Update
+     2.  ```
+         INSERT INTO 테이블이름 VALUES (데이터값1, 데이터값2, 데이터값3, ...)
+         ```
 
-  6. Delete
+        - 2번째는 사용할 수 있는 필드가 제한적이다.
+          1. NULL을 저장 할 수 있도록 설정된 필드
+          2. DEFAULT 제약 조건이 설정된 필드
+          3. AUTO_INCREMENT 키워드가 설정된 필드
 
-  7. Drop
+  4. Update
+
+     1.  ```
+         UPDATE 테이블이름 SET 필드이름1=데이터값1, 필드이름2=데이터값2,... WHERE 필드이름=데이터값
+         ```
+
+  5. Delete
+
+     1.  ```
+         DELETE FROM 테이블이름 WHERE 필드이름=데이터값
+         ```
+
+        - 만약 WHERE 절을 생략하면 해당 테이블에 저장된 모든 데이터가 삭제됨
+
+  6. Select
+
+     1. ```
+        SELECT 필드이름 FROM 테이블이름 [WHERE 조건]
+        ```
+
+
+
+
+
+
+
