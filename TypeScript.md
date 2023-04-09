@@ -26,13 +26,13 @@ function sum(a: number, b: number) {
 ```js
 sum(1, 3)
 ```
-- 위의 코드는 둘 다 4가 나오지만
+ 위의 코드는 둘 다 4가 나오지만
 
 ```js
 sum('1', '3')
 ```
-- 만약 위의 코드로 실행을 시킨다면?
-- JS는 13, TS는 Type Error를 발생시킵니다.
+ 만약 위의 코드로 실행을 시킨다면?
+ JS는 13, TS는 Type Error를 발생시킵니다.
 
 
 
