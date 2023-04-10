@@ -36,3 +36,16 @@ sum('1', '3')
 
 
 
+#### Code Auto-Completion
+
+- 코드의 자동완성 기능을 사용 할 수 있다.
+```js
+function sum(a, b) {
+  return a + b;
+}
+var total = sum(10, 20);
+total.toLocaleString();
+```
+
+- 만약 위의 코드를 작성한다고 할 때
+  - JS는 직접 코드를 쓰는 반면, TS는 자동 완성 기능을 사용 할 수 있다.
